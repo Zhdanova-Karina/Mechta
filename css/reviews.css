@@ -1,0 +1,124 @@
+.reviews {
+    display: flex;
+    width: 100%;
+    align-items: left;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.reviews h1 {
+    width: 100%;
+    color: #051303;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.reviews h2 {
+    width: 100%;
+    color: #051303;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.reviews h3 {
+    width: 100%;
+    color: #051303;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.reviews p {
+    width: 100%;
+    color: #A4A3A3;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.two_column {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    gap: 32px;
+}
+
+.service_2GIS {
+    display: flex;
+    width: 584px;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px 24px;
+    background-color: #C3DF71;
+    border-radius: 20px;
+}
+
+.service_Yandex {
+    display: flex;
+    width: 584px;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px 24px;
+    background-color: #9CB35B;
+    border-radius: 20px;
+}
+
+.review {
+    display: flex;
+    width: 100%;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.person {
+    display: flex;
+    width: 100%;
+    align-items: left;
+    gap: 20px;
+}
+
+.person_data {
+    display: flex;
+    width: 100%;
+    align-items: left;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.header_reviews {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 208px;
+    padding: 8px 8px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.service_Yandex .header_reviews {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 116px;
+    padding: 8px 8px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.rating {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.rating_star {
+    display: flex;
+    width: fit-content;
+    gap: 8px;
+}
