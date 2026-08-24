@@ -1,0 +1,39 @@
+.main_screen {
+    background-image: url('/img/main_screen.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding: 240px 0px 0px 352px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.main_screen .info {
+    position: relative;
+    z-index: 2;
+}
+
+.main_screen .info h1 {
+    font-size: 80px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.main_screen .info h2 {
+    font-size: 32px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.main_screen .btn {
+    position: relative;
+    z-index: 2;
+}

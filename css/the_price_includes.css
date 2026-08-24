@@ -1,0 +1,72 @@
+.the_price_includes {
+    width: 1200px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.the_price_includes h1 {
+  width: 100%;
+  color: #051303;
+    font-weight: 700;
+    font-size: 44px;
+}
+.the_price_includes h2 {
+  width: 100%;
+  color: #051303;
+    font-weight: 600;
+    font-size: 32px;
+}
+.the_price_includes h3 {
+  width: 100%;
+  color: #051303;
+    font-weight: 400;
+    font-size: 24px;
+}
+.the_price_includes p {
+  width: 100%;
+  color: #051303;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.headline_and_content {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.img_two_column {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    gap: 36px;
+}
+
+.text_img {
+    width: 100%;
+     display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.composition_barbecue {
+    width: 100%;
+     display: flex;
+    align-items: left;
+    gap: 52px;
+}
+
+.paragraph {
+    width: fit-content;
+     display: flex;
+    align-items: center;
+    padding: 8px 8px;
+    gap: 10px;
+    background-color: #FFFDFD;
+    border-radius: 8px;
+}

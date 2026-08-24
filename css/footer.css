@@ -1,0 +1,194 @@
+.footer {
+  position: relative;
+  width: 100%;
+  height: 1098px;
+  overflow: hidden;
+  background-color: #9CB35B;
+  margin-top: 100px; 
+}
+
+.footer .content {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 64px;
+    gap: 48px;
+    position: relative;
+    z-index: 10;
+}
+
+.footer .logo_and_nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 628px;
+}
+
+.footer .logo_and_nav nav {
+    display: flex;
+    list-style: none;
+    align-items: left;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer p {
+  width: 100%;
+  color: #051303;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footer h3 {
+  width: 100%;
+  color: #EBF0DE;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footer_menu {
+    color: #051303;
+    font-weight: 500;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.footer_menu:hover {
+    color: #FFFFFF;
+}
+
+.footer .doc_and_contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.doc {
+  width: 100%;
+   display: flex;
+  list-style: none;
+    align-items: left;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contacts_and_soc {
+  display: flex;
+  width: 312px;
+  list-style: none;
+    align-items: left;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contacts {
+  width: 100%;
+  list-style: none;
+    align-items: left;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ico_and_cont {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  align-items: left;
+    gap: 12px;
+}
+
+.social_network {
+  position: relative;
+  display: flex;
+  width: 100%;
+  list-style: none;
+    align-items: left;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.soc {
+  width: 100%;
+  display: flex;
+  list-style: none;
+    align-items: left;
+    gap: 32px;
+}
+
+.forest {
+  position: absolute;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.forest svg {
+  display: block;
+}
+
+.social_network .badge {
+    position: absolute;
+    top: -8px;
+    left: 196px;
+    z-index: 100;
+    pointer-events: none;  /* чтобы не мешал кликам */
+    font-weight: 800;
+    font-size: 24px;
+}
+
+/* Базовая ссылка (текст) */
+.footer_social_link {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+  color: #051303;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* При наведении текст ссылки становится белым */
+.footer_social_link:hover {
+  color: #FFFFFF;
+}
+
+/* Настраиваем размеры SVG */
+.footer_social_link svg {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+
+.footer_social_text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* 1. ИСХОДНОЕ СОСТОЯНИЕ (Задаем плавность и базовые цвета) */
+.footer_social_link svg path {
+  transition: fill 0.3s ease, stroke 0.3s ease;
+}
+
+/* Если у элемента ЕСТЬ встроенный stroke (это Макс) — красим только его линии */
+.footer_social_link svg path[stroke] {
+  stroke: #051303;
+  fill: none !important; /* Намертво запрещаем заливать внутренности букв */
+}
+
+/* Если у элемента ЕСТЬ встроенный fill (это ВК) — красим только заливку */
+.footer_social_link svg path[fill] {
+  fill: #051303;
+}
+
+
+/* 2. СОСТОЯНИЕ ПРИ НАВЕДЕНИИ (Красим в белый цвет) */
+
+.footer_social_link:hover svg path[stroke] {
+  stroke: #FFFFFF;
+  fill: none !important; 
+}
+
+.footer_social_link:hover svg path[fill] {
+  fill: #FFFFFF;
+}

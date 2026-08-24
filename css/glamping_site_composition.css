@@ -1,0 +1,67 @@
+
+.glamping_site_composition {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.glamping_site_composition h1 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #051303;
+    text-align: left;
+}
+
+.composition_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 32px;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px;
+    background-color: #FFFDFD;
+    border-radius: 16px;
+}
+
+.card .content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card .content h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #051303;
+    margin: 0;
+}
+
+.card .content p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #051303;
+    margin: 0;
+}
+
+.glamping_site_composition .badge {
+    position: absolute;
+    top: 1520px;
+    left: 1400px;
+    z-index: 10;
+    width: 228px;
+    height: 304px;
+    pointer-events: none;  /* чтобы не мешал кликам */
+}
+
+.glamping_site_composition .badge img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}

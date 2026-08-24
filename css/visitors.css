@@ -1,0 +1,74 @@
+.visitors {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.visitors h1 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #051303;
+    text-align: left;
+}
+
+.visitor_categories {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.visitor_categories .content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center; /* Центрируем текст и фото по горизонтали */
+    text-align: center;
+    flex: 1; /* Чтобы все три блока были одинаковой ширины */
+}
+
+.visitor_categories .content .image_round {
+    width: 378px;
+    height: 378px;
+    object-fit: cover; /* Не даёт фото растягиваться, обрезая лишнее по краям */
+    border-radius: 50%; /* Делает картинку идеально круглой */
+}
+
+.visitor_categories .content p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.visitors .spruce1 {
+    position: absolute;
+    top: 2892px;
+    left: -8px;
+    z-index: 10;
+    width: 494px;
+    height: 494px;
+    pointer-events: none;  /* чтобы не мешал кликам */
+}
+
+.visitors .spruce1 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+.visitors .spruce2 {
+    position: absolute;
+    top: 2600px;
+    left: 1354px;
+    z-index: 10;
+    width: 548px;
+    height: 548px;
+    pointer-events: none;  /* чтобы не мешал кликам */
+}
+
+.visitors .spruce2 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}
