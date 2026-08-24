@@ -7,26 +7,29 @@
 }
 
 .the_price_includes h1 {
-  width: 100%;
-  color: #051303;
+    width: 100%;
+    color: #051303;
     font-weight: 700;
     font-size: 44px;
 }
+
 .the_price_includes h2 {
-  width: 100%;
-  color: #051303;
+    width: 100%;
+    color: #051303;
     font-weight: 600;
     font-size: 32px;
 }
+
 .the_price_includes h3 {
-  width: 100%;
-  color: #051303;
+    width: 100%;
+    color: #051303;
     font-weight: 400;
     font-size: 24px;
 }
+
 .the_price_includes p {
-  width: 100%;
-  color: #051303;
+    width: 100%;
+    color: #051303;
     font-weight: 400;
     font-size: 20px;
 }
@@ -48,7 +51,7 @@
 
 .text_img {
     width: 100%;
-     display: flex;
+    display: flex;
     align-items: left;
     flex-direction: column;
     gap: 12px;
@@ -56,14 +59,14 @@
 
 .composition_barbecue {
     width: 100%;
-     display: flex;
+    display: flex;
     align-items: left;
     gap: 52px;
 }
 
 .paragraph {
     width: fit-content;
-     display: flex;
+    display: flex;
     align-items: center;
     padding: 8px 8px;
     gap: 10px;
