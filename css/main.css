@@ -1,89 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('reset.css');
+@import url('typography.css');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('header.css');
+@import url('footer.css');
+@import url('button.css');
+@import url('icon.css');
 
-body {
-    font-family: "Wix Madefor Text", sans-serif;
-    font-weight: 400;
-}
 
-a {
-    text-decoration: none;
-}
+@import url('hero.css');
+@import url('glamping_site_composition.css');
+@import url('the_price_includes.css');
+@import url('gallery.css');
+@import url('visitors.css');
 
-img {
-    max-width: 100%;
-}
-
-.wrapper {
-    width: 100%;
-}
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-full {
-    padding: 20px 0;
-    background-color: #f5f5f5;
-    width: 100%;
-    margin-bottom: 0px;
-}
-
-.header-full .container {
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* Навигация */
-.header-full nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 56.33px;
-}
-
-.menu-link {
-    color: #051303;
-    font-weight: 500;
-    font-size: 20px;
-    transition: color 0.3s ease;
-}
-
-.menu-link:hover {
-    color: #9CB35B;
-}
-
-/* Кнопка */
-.btn {
-    border: none;
-    outline: none;
-    padding: 12px 44px;
-    background-color: #C3DF71;
-    color: #051303;
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    border-radius: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    display: inline-block;
-}
-
-.btn:hover {
-    background-color: #9CB35B;
-}
+@import url('feauters.css');
