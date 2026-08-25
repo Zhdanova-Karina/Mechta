@@ -12,6 +12,8 @@
     transition: background-color 0.3s ease, transform 0.2s ease;
     display: inline-block;
     align-self: flex-start;
+    white-space: nowrap; /* Запрещаем перенос текста */
+    flex-shrink: 0;
 }
 
 .btn:hover {
@@ -68,3 +70,51 @@
     pointer-events: none; /* Чтобы клик проходил сквозь иконку на кнопку */
 }
 
+.question_toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: background-color 0.2s, transform 0.1s;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #C3DF71;
+    color: #7C9143;
+    cursor: pointer;
+}
+
+.question_toggle:hover {
+    background-color: #9CB35B
+}
+
+.question_toggle svg {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    pointer-events: none;
+}
+
+/* Плюс виден, минус скрыт (по умолчанию) */
+.icon_plus {
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+.icon_minus {
+    opacity: 0;
+    transform: rotate(90deg);
+}
+
+/* При открытии: плюс скрыт, минус виден */
+.question.active .icon_plus {
+    opacity: 0;
+    transform: rotate(-90deg);
+}
+
+.question.active .icon_minus {
+    opacity: 1;
+    transform: rotate(0deg);
+}
