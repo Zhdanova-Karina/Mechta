@@ -1,0 +1,76 @@
+.freq_questions {
+    display: flex;
+    width: 100%;
+    align-items: left;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.freq_questions h1 {
+    width: 100%;
+    color: #051303;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.headline_and_btn {
+    display: flex;
+    width: 100%;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.list_questions {
+    display: flex;
+    width: 100%;
+    align-items: left;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.question {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    border-top: 1px solid #051303;
+    border-bottom: 1px solid #051303;
+}
+
+.q_and_btn {
+    display: flex;
+    width: 100%;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.q_and_btn h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #051303;
+}
+
+/* Блок с ответом - скрыт по умолчанию */
+.answer {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    overflow: hidden; /* Важно! Обрезает содержимое */
+    max-height: 0; /* Скрыт */
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.4s ease, padding 0.4s ease;
+}
+
+/* Блок с ответом - открыт */
+.question.active .answer {
+    max-height: fit-content; /* Показываем */
+    opacity: 1;
+}
+
+.answer p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #A4A3A3;
+}

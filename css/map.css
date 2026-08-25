@@ -1,0 +1,57 @@
+.headline_and_content {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.headline_and_content h1 {
+    width: 100%;
+    color: #051303;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.adress_and_map {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.adress {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    gap: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #051303;
+}
+
+.map {
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 620px;
+}
+
+.headline_and_content .badge {
+    position: absolute;
+    top: 7050px;
+    left: 1423px;
+    z-index: 10;
+    width: 249px;
+    height: 322px;
+    pointer-events: none;  /* чтобы не мешал кликам */
+}
+
+.headline_and_content .badge img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}
